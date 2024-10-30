@@ -1,5 +1,5 @@
 # Python Project
-Team member 1, Team member 2, Team member 3
+Asher Ringer
 
 ## <program_name> Description
 Here is where you describe what the program does
