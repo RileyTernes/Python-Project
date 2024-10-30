@@ -18,14 +18,11 @@ graph TD;
 | `main`    |               |  Riley Ternes     |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns none |
 ***
 | `menu`    |               |     Asher Ringer   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for the menu  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns selection |
+
 ***
 | `name`    |               |     Riley Ternes   |
 | ------------------ | ------------- | ------------ |
@@ -33,13 +30,13 @@ graph TD;
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `random_integer`    |               |     author   |
+| `random_integer`    |               |     Riley Ternes   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns guessing_number |
 ***
-| `take_turns`    |               |     author   |
+| `take_turns`    |               |     Asher Ringer   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
