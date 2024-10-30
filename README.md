@@ -1,10 +1,10 @@
 # Python Project
-Asher Ringer
+Asher Ringer and Riley Ternes
 
-## <program_name> Description
-Here is where you describe what the program does
+## <Number Guesser> Description
+This program allows the users to take turns guessing a random number between 1-100
 
-### <program_name> Flowchart
+### <Number Guesser> Flowchart
 ```mermaid
 graph TD;
   A-->B;
@@ -15,13 +15,31 @@ graph TD;
 
 #### Function Diagrams
 
-| `function name1`    |               |  author     |
+| `main`    |               |  Riley Ternes     |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns none |
+***
+| `menu`    |               |     Asher Ringer   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for the menu  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns selection |
+***
+| `name`    |               |     Riley Ternes   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for their name  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `function name2`    |               |     author   |
+| `random_integer`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for ____  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns guessing_number |
+***
+| `take_turns`    |               |     author   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
