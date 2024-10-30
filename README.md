@@ -15,30 +15,26 @@ graph TD;
 
 #### Function Diagrams
 
-| `main`    |               |  Riley Ternes     |
-| ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
+| `main`    |  Riley Ternes     |
 ***
 | `menu`    |               |     Asher Ringer   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for the menu  |              |
-
+| | displays menu | returns selection |
+|   | takes input from the user as to what range they want to play in | returns range |
 ***
 | `name`    |               |     Riley Ternes   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for their name  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+|     | takes input from the user for their name  | returns player1 and player2|
+
 ***
 | `random_integer`    |               |     Riley Ternes   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns guessing_number |
+|     | generates a random integer from 1-100, including both numbers | returns random_number|
+
 ***
 | `take_turns`    |               |     Asher Ringer   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `receives random_number`    | takes input from the user for the number picked, validates it, provides feedback, and keeps track of the number of turns taken  |           |
+|  receives player1 and player2 | displays their names when the users take turns picking a number | |
+| | validates number | returns selection |
 ***
