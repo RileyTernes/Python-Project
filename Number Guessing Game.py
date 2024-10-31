@@ -52,3 +52,10 @@ def take_turns(random_number, player1, player2):
     elif:
         print("That guess was correct! ",current_player," guessed the number in "total" guesses! Congratulations!")
         quit()
+    
+=======
+
+def range_getter():
+    range_low == int(input("Please enter the floor for the range: "))
+    range_high == int(input(Please enter the ceiling for the range: "))
+>>>>>>> 9905362bf79fc5858d5b9dfb6f2c930271b04437
