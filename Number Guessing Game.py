@@ -36,7 +36,6 @@ def name():
 def random_integer(range_low, range_high):
     random_number = random.randint(range_low, range_high)
 def take_turns(random_number, player1, player2):
-<<<<<<< HEAD
     current_player = player1
     total = 0
     guess = int(input("Enter a number between ",range_low," - "range_high": "))
@@ -46,16 +45,16 @@ def take_turns(random_number, player1, player2):
         guess_player1 = int(input(f"{current_player}, please enter a number between ",range_low," - "range_high": "))
     if guess > random_number:
         print("That guess was too high.")
-        if total = 
+    if total % 2 == 0:
+        current_player = player1
+    else:
+        current_player = player2
     elif guess < random_number:
         print("That guess was too low.")
     elif:
         print("That guess was correct! ",current_player," guessed the number in "total" guesses! Congratulations!")
         quit()
     
-=======
-
 def range_getter():
     range_low == int(input("Please enter the floor for the range: "))
-    range_high == int(input(Please enter the ceiling for the range: "))
->>>>>>> 9905362bf79fc5858d5b9dfb6f2c930271b04437
+    range_high == int(input("Please enter the ceiling for the range: "))
