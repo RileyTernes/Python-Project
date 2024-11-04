@@ -36,6 +36,31 @@ def name():
 def random_integer(range_low, range_high):
     random_number = random.randint(range_low, range_high)
 def take_turns(random_number, player1, player2):
+    #Takes variables random_number and players.
+    #Takes turns asking between 2 user to guess the random number
+    #Tells wether the number is to high or to low
+    #Returns who the winner is.
+    player1_guess = x
+    player2_guess = x
+    
+    while player1_guess or player2_guess != random_number: #repeats guessing process until random number is guessed
+        player1_guess = int(input(f"{player1}, enter your guess")) #askes player 1 to their guess
+        if player1_guess > random_number: #if statements used to state if number is higher or lower, if number is guessed than program ends
+            print("lower")
+        if player1_guess < random_number:
+            print("higher")
+        if player1_guess == random_number:
+            print(f"{player1} wins!")
+            exit()
+        player2_guess = int(input(f"{player2}, enter your guess")) #same thing as previous staetment
+        if player2_guess > random_number:
+            print("lower")
+        if player2_guess < random_number:
+            print("higher")
+        if player2_guess == random_number:
+            print(f"{player2} wins!")
+            exit()
+        
     current_player = player1
     total = 0
     guess = int(input("Enter a number between ",range_low," - "range_high": "))
