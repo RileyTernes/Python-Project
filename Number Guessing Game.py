@@ -58,7 +58,4 @@ def take_turns(random_number, player1, player2):
 def range_getter():
     range_low == int(input("Please enter the floor for the range: "))
     range_high == int(input("Please enter the ceiling for the range: "))
-
-def range_getter():
-    range_low == int(input("Please enter the floor for the range: "))
-    range_high == int(input("Please enter the ceiling for the range: "))
+    return range_low, range_high
